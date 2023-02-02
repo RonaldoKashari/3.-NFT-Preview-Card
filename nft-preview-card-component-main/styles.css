@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h3{
+    color: white;
+    font-weight: 300;
+}
+
+p{
+    margin: 0;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    box-shadow: 2px 13px 19px 5px rgb(0 0 0 / 10%);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    padding: 20px;
+    gap: 15px;
+}
+
+.productImg{
+    width: 16rem;
+    border-radius: 10px;
+}
+
+.infoSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.info{
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.eth{
+    gap: 8px;
+    color: hsl(178, 100%, 50%);
+}
+
+.solid{
+    width: 100%;
+}
+
+.creator{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar{
+    margin-right: 10px;
+    height: 1.5em;
+}
+
+.creatorLink{
+    color: white;
+}
+
+.creatorLink:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
