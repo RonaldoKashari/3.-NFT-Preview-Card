@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-*{
+
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit', sans-serif;
 }
 
-main{
+main {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -16,24 +18,24 @@ main{
     height: 100vh;
 }
 
-h3{
+h3 {
     color: white;
     font-weight: 300;
 }
 
-p{
+p {
     margin: 0;
     color: hsl(215, 51%, 70%);
     font-size: 15px;
 }
 
-.card{
+.card {
     position: relative;
     display: flex;
     flex-direction: column;
     background-color: hsl(216, 50%, 16%);
     border-radius: 15px;
-    box-shadow: 2px 13px 19px 5px rgba(0,0,0,0.1);
+    box-shadow: 2px 13px 19px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -42,7 +44,7 @@ p{
     gap: 15px;
 }
 
-.images{
+.images {
     position: relative;
     display: flex;
     height: 250px;
@@ -51,7 +53,7 @@ p{
     overflow: hidden;
 }
 
-.productImg{
+.productImg {
     width: 100%;
     /* position: relative; */
     cursor: pointer;
@@ -64,48 +66,47 @@ p{
     height: 100%;
     opacity: 0%;
     display: flex;
-    background-color:hsl(178, 100%, 50%);
+    background-color: hsl(178, 100%, 50%);
     transition: .3s ease;
     position: absolute;
     top: 0%;
     left: 0%;
-    
 }
 
-.hoveImg{
+.hoveImg {
     width: 16%;
     margin: auto;
 }
 
-.hoveImgContainer:hover{
+.hoveImgContainer:hover {
     opacity: 60%;
 }
 
-.infoSection{
+.infoSection {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 15px;
 }
 
-.info{
+.info {
     display: flex;
     gap: 8px;
     justify-content: space-between;
 }
 
-.eth{
+.eth {
     gap: 8px;
     display: flex;
     align-items: center;
     color: hsl(178, 100%, 50%);
 }
 
-.solid{
+.solid {
     width: 100%;
 }
 
-.creator{
+.creator {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -113,7 +114,7 @@ p{
     color: hsl(215, 51%, 70%);
 }
 
-.avatar{
+.avatar {
     border: solid gray 2px;
     border-radius: 15px;
     height: 1.5em;
@@ -125,20 +126,20 @@ p{
     gap: 4px;
 }
 
-.name:hover{
+.name:hover {
     cursor: pointer;
     color: hsl(178, 100%, 50%);
 }
 
-.avatar:hover{
+.avatar:hover {
     cursor: pointer;
 }
 
-.creatorLink{
+.creatorLink {
     color: white;
 }
 
-.creatorLink:hover{
+.creatorLink:hover {
     cursor: pointer;
     color: hsl(178, 100%, 50%);
 }
